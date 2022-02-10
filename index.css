@@ -166,3 +166,6 @@ body,html{
 .fa{
     margin: 0.5rem;
 }
+.search-panel{
+    display: flex;
+}
