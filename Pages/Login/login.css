@@ -60,3 +60,9 @@ html {
     margin: 1rem;
     padding: 1rem;
 }
+.login-text-head{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+}
