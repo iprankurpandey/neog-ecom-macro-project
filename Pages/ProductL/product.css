@@ -1,7 +1,7 @@
 /* global css sheet from agri component library */
 @import 'https://agri-component.netlify.app/css/components.css';
-
-* {
+@import ''
+*{
     margin: 0;
     padding: 0;
 }
@@ -10,8 +10,6 @@ body,
 html {
     height: 100%;
 }
-
-
 
 .footer-items {
     display: flex;
@@ -43,8 +41,10 @@ html {
     margin: 0.5rem;
 }
 
-
-
 .search-panel{
     display: flex;
+}
+
+.mtrlshop{
+font-size: 2rem;
 }
