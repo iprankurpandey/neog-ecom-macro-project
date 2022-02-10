@@ -67,3 +67,6 @@ html {
     margin-bottom: 1rem;
 }
 
+.search-panel{
+    display: flex;
+}
