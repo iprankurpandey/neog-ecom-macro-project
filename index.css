@@ -1,0 +1,171 @@
+@import url('https://agri-component.netlify.app/css/components.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+
+}
+
+.main-container{
+    background-image: url("/images/slider-01.jpg");
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.head-text{
+    font-size: 2.5rem;
+    color: rgb(248, 63, 63);
+    font-weight: 800;
+}
+.mtext{
+    font-size: 3rem;
+    color: rgb(99, 98, 96);
+    font-weight: 600;
+}
+.logo-text{
+    font-size: 2rem;
+    color: rgb(247, 2, 96);
+    font-weight: 500;
+}
+.subtext-image{
+    font-size: 1.5rem;
+    color: rgb(248, 2, 166);
+    font-weight: 400;
+}
+
+.text-in-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.featured-catagories{
+    font-weight: 800;
+    text-align: center;
+    margin: 3rem;
+    text-decoration: underline;
+    text-decoration-color:goldenrod;
+
+}
+.catagory-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3rem;
+}
+
+.first-catagory{
+    background-image: url('/images/wheat.jpg');
+}
+.second-catagory{
+    background-image: url('/images/agri-image.jpg');
+}
+.third-catagory{
+    background-image: url('/images/wheat.jpg');
+}
+.fourth-catagory{
+    background-image: url('/images/agri-image.jpg');
+}
+.box{
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-style: italic;
+}
+.brand-choice{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+.featured-brands{
+    font-weight: 800;
+    text-align: center;
+    margin: 3rem;
+    text-decoration: underline;
+    text-decoration-color:goldenrod;
+}
+
+.brand-logo{
+    width: 8rem;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-style: italic;
+    color: cadetblue;
+}
+
+.first-brand{
+    background-image: url('/images/wheat.jpg');
+}
+
+.second-brand{
+    background-image: url('/images/agri-image.jpg');
+}
+.third-brand{
+    background-image: url('/images/wheat.jpg');
+}
+.fourth-brand{
+    background-image: url('/images/agri-image.jpg');
+}
+.fifth-brand{
+    background-image: url('/images/wheat.jpg');
+}
+.sixth-brand{
+    background-image: url('/images/agri-image.jpg');
+}
+
+.footer-items{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height:auto;
+    background-color: silver;
+    max-width: 100%;
+    padding: 1rem;
+    left: 0;
+   bottom: 0;
+   width: 100%
+}
+.social-media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 2rem;
+    background-color: silver;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
+
+.fa{
+    margin: 0.5rem;
+}
+.search-panel{
+    display: flex;
+}
