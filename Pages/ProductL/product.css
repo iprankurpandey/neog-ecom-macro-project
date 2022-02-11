@@ -1,7 +1,8 @@
 /* global css sheet from agri component library */
 @import 'https://agri-component.netlify.app/css/components.css';
-@import ''
-*{
+
+
+* {
     margin: 0;
     padding: 0;
 }
@@ -16,7 +17,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: auto;
+    height: 5rem;
     background-color: silver;
     max-width: 100%;
     padding: 1rem;
@@ -24,6 +25,9 @@ html {
     left: 0;
     bottom: 0;
     width: 100%
+   
+
+
 }
 
 .social-media-links {
@@ -41,10 +45,38 @@ html {
     margin: 0.5rem;
 }
 
-.search-panel{
+.search-panel {
     display: flex;
 }
 
-.mtrlshop{
-font-size: 2rem;
+.mtrlshop {
+    font-size: 2rem;
+}
+
+.catagory-items-page {
+    display: grid;
+    grid-template-columns: 250px auto;
+    height: 100%;
+ 
+}
+
+.side-item-container {
+    /* margin: 1rem; */
+    width: max-content;
+    grid-column: 1/2;
+    background-color: chocolate;
+  
+}
+
+.main-item-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    /* left: 15rem; */
+    padding-bottom:6rem;
+   
+
+}
+.vcard{
+    height: fit-content;
 }
