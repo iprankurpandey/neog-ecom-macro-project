@@ -25,9 +25,6 @@ html {
     left: 0;
     bottom: 0;
     width: 100%
-   
-
-
 }
 
 .social-media-links {
@@ -57,29 +54,23 @@ html {
     display: grid;
     grid-template-columns: 250px auto;
     height: 100%;
- 
 }
 
 .side-item-container {
-    /* margin: 1rem; */
     width: max-content;
     grid-column: 1/2;
     background-color: chocolate;
     width: 12rem;
     padding: 0.5rem;
-    
-  
 }
 
-.main-item-container{
+.main-item-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
-    /* left: 15rem; */
-    padding-bottom:6rem;
-   
-
+    padding-bottom: 6rem;
 }
-.vcard{
+
+.vcard {
     height: fit-content;
 }
