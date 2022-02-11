@@ -65,6 +65,9 @@ html {
     width: max-content;
     grid-column: 1/2;
     background-color: chocolate;
+    width: 12rem;
+    padding: 0.5rem;
+    
   
 }
 
