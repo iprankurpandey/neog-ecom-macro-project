@@ -1,6 +1,7 @@
 /* global css sheet from agri component library */
 @import 'https://agri-component.netlify.app/css/components.css';
 
+
 * {
     margin: 0;
     padding: 0;
@@ -11,27 +12,12 @@ html {
     height: 100%;
 }
 
-.login-form {
-    height: 22rem;
-    width: 25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: auto;
-    background-color: silver;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
-    text-align: center;
-    /* display: block; */
-}
-
 .footer-items {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: auto;
+    height: 5rem;
     background-color: silver;
     max-width: 100%;
     padding: 1rem;
@@ -56,20 +42,35 @@ html {
     margin: 0.5rem;
 }
 
-.login-info {
-    margin: 1rem;
-    padding: 1rem;
-}
-.login-text-head{
-    font-size: 2rem;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 1rem;
-}
-
-.search-panel{
+.search-panel {
     display: flex;
 }
-.mtrlshop{
+
+.mtrlshop {
     font-size: 2rem;
-    }
+}
+
+.catagory-items-page {
+    display: grid;
+    grid-template-columns: 250px auto;
+    height: 100%;
+}
+
+.side-item-container {
+    width: max-content;
+    grid-column: 1/2;
+    background-color: chocolate;
+    width: 12rem;
+    padding: 0.5rem;
+}
+
+.main-item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+.vcard {
+    height: fit-content;
+}

@@ -60,12 +60,18 @@ html {
     margin: 1rem;
     padding: 1rem;
 }
-.signup-text-head{
+
+.signup-text-head {
     font-size: 1.5rem;
     font-weight: bold;
     color: #000;
     margin: 1rem;
 }
-.search-panel{
+
+.search-panel {
     display: flex;
+}
+
+.mtrlshop {
+    font-size: 2rem;
 }
